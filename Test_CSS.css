@@ -1,3 +1,11 @@
+.theme-entry .grid-header-wrapper .grid-header-text, .theme-entry .panel-header-wrapper .panel-header-text, .theme-entry .grid-header-wrapper .grid-header-text>span, .theme-entry .panel-header-wrapper .panel-header-text>span {
+   	color: #ffffff !important;
+	text-align: center!important;
+	font-size: 14px;
+	position: relative;
+}
+
+
 .theme-entry .form {
 	padding         : 12px;
 	background-color: transparent;
@@ -170,12 +178,6 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-m-c {
     background: blue;
 }
 
-.theme-entry .grid-header-wrapper .grid-header-text, .theme-entry .panel-header-wrapper .panel-header-text, .theme-entry .grid-header-wrapper .grid-header-text>span, .theme-entry .panel-header-wrapper .panel-header-text>span {
-    color: #ffffff !important;
-	text-align: center!important;
-	font-size: 14px;
-	position: relative;
-}
 
 .theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark, .theme-entry .input-control-watermark
 
