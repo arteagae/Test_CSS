@@ -5,7 +5,27 @@
 	position: relative;
 }
 
+/* HEADER */ 
+/* Fix the height of the form and make it scrollable within the form */ 
+.nx-form.container-fluid.nx-theme-form { 
+  height: 700px; 
+  overflow: auto; 
+} 
+ntx-multi-page .nx-multi-page { 
+  position: relative; 
+} 
+/* Sticky Header */ 
+.nx-multi-page-heading { 
+  position: sticky; 
+  top: -30px; 
+  z-index: 999; 
+  background-color: #ebe419;
+}
 
+
+
+
+/* CODES TO EVALUATE
 .theme-entry .form {
 	padding         : 12px;
 	background-color: transparent;
@@ -54,7 +74,7 @@ html .theme-entry .tab-box ul.tab-box-tabs a.selected.tab .tab-wrapper {
 	height           : 56px;
 	padding          : 0px;
 	cursor           : default;
-	/* vertical-align: bottom; */
+	
 }
 
 .theme-entry .tab-box ul.tab-box-tabs a.tab:hover,
@@ -83,7 +103,6 @@ html .theme-entry .tab-box ul.tab-box-tabs a.tab.selected:hover .tab-wrapper {
     box-sizing: border-box;
     font-size: 1.4rem;
     width: calc(100% - 2px);
-    /*font-family: var(--Main-Font-Family);*/
     background-color: var(--Primary-Light);
 }
 
@@ -128,8 +147,7 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-m-c {
 	padding-bottom  : 5px;
 	padding-left    : 10px;
 	padding-right   : 10px;
-	color           : black;
-	/*font-family   : var(--Main-Font-Family-2);*/
+	color           : black;	
 	font-weight     : 600;
 	border-radius   : 50%;
 	opacity         : 1;
@@ -141,7 +159,6 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-m-c {
 	background-color: #8bc242;
 	border          : 1px solid rgb(213, 137, 49);
 	color           : black;
-	/*#c3e9ef*/
 }
 
 .theme-entry .tab-box ul.tab-box-tabs a.tab span.tab-text {
@@ -190,5 +207,5 @@ html[dir=ltr] .theme-entry .input-control.select-box .input-control-m-c {
 	box-sizing: border-box;
 	line-height: 1.2;
 }
-
+*/
 @font-face { font-family: "Rocgrotesk-regular"; src: url("https://immersiononk2.blob.core.windows.net/files/fonts/rocgrotesk-regular-webfont.woff")}@font-face { font-family: "Rocgroteskregular"; src: url("https://immersiononk2.blob.core.windows.net/files/fonts/rocgrotesk-regular-webfont.woff")}.theme-entry label.input-label { display: block!important; color: #000000; font-size: 14px; font-family: rocgroteskregular,sans-serif; letter-spacing: .5px; margin-bottom: 13px; text-transform: uppercase; font-weight: 700;} .theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark, .theme-entry .input-control-watermark{ height: 52px; -webkit-border-radius: 4px; border: 1px solid #ced3da; display: block; box-sizing: border-box; line-height: 1.2; font-style: normal!important; font-size: 16px; font-weight: 400!important; font-family: "Rocgrotesk-regular"!important; padding: 3px 17px 0!important; }.theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox, .theme-entry input[type=text].input-control, .theme-entry input[type=password].input-control{height: 52px;-webkit-border-radius: 4px;border: 1px solid #ced3da;display: block;box-sizing: border-box;line-height: 1.2;font-style: normal!important;font-size: 16px;font-weight: 400!important;font-family: "Rocgrotesk-regular"!important;padding: 3px 17px 0!important;}.theme-entry .input-control.select-box .input-control-m-c{height: 52px;-webkit-border-radius: 4px;border: 1px solid #ced3da!important;display: block;box-sizing: border-box;padding-top: 12px;}.theme-entry .input-control.watermark a.input-control, .theme-entry .input-control.watermark a.input-control span{font-style: normal!important;font-size: 16px;font-weight: 400!important;font-family: "Rocgrotesk-regular"!important;padding: 3px 10px 0!important;color: black;}.theme-entry span {font-family: "Rocgrotesk-regular"!important;color: black;font-size: 16px!important;font-size: 16px;}.theme-entry .drop-menu .drop-menu-m{border: solid 1px black;}.theme-entry div.input-control.datepicker, .theme-entry div.input-control.select-box { border-radius: 3px; box-shadow: 0 0 0 1px var(--On-Secondary-Dark)!important; box-sizing: border-box; font-size: 1.4rem; width: calc(100% - 2px); /*font-family: var(--Main-Font-Family);*/ background-color: var(--Primary-Light);}body.theme-entry, .theme-entry div, .theme-entry span, .theme-entry td, .theme-entry li, .theme-entry p, .theme-entry textarea, .theme-entry input[type=text], .theme-entry input.text, .theme-entry select, .theme-entry option, .theme-entry label.input-control .input-control-text, .theme-entry .SFC.SourceCode-Forms-Controls-Web-TextBox.watermark, .theme-entry .input-control-watermark, .theme-entry .Hyperlink, .theme-entry .Hyperlink-NotSet{color: gray!important;}
