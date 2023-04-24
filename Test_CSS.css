@@ -6,6 +6,12 @@
 	position: relative;	
 }
 
+ 
+html .theme-entry {
+                                    --page-background-color: blue;
+        }
+
+
 /* HEADER */ 
  /*
 .nx-form.container-fluid.nx-theme-form { 
